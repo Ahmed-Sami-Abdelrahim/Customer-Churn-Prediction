@@ -39,15 +39,16 @@ To train the model, open the `model_training.ipynb` notebook and execute the cel
 
 Once the model is trained, a Flask API is used to serve the model and allow users to make predictions by sending HTTP requests.
 
-### Dependencies
+## Dependencies
+
 The project requires the following libraries:
 
-Flask: For building the API.
-pandas: For data manipulation and analysis.
-numpy: For numerical operations.
-scikit-learn: For machine learning and model training.
-imbalanced-learn: For SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset.
-gunicorn: WSGI server for running the Flask app in production.
+- **Flask**: For building the API.
+- **pandas**: For data manipulation and analysis.
+- **numpy**: For numerical operations.
+- **scikit-learn**: For machine learning and model training.
+- **imbalanced-learn**: For SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset.
+- **gunicorn**: WSGI server for running the Flask app in production.
 
 ```bash
 pip install -r requirements.txt
