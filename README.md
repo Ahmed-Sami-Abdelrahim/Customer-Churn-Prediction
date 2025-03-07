@@ -18,7 +18,7 @@ You can find the dataset in the `data/WA_Fn-UseC_-Telco-Customer-Churn.csv` file
 ### Model
 
 - **Model Type**: Random Forest Classifier
-- **Accuracy**: The trained model achieved an accuracy of **85.75%** on the test data. This means that the model is able to correctly predict whether a customer will churn with an accuracy of 85.75%. This high accuracy suggests the model performs reliably in predicting customer churn.
+- **Accuracy**: The trained model achieved an accuracy of **85.75%** on the test data. This means that the model is able to correctly predict whether a customer will churn with an accuracy of **85.75%**. This high accuracy suggests the model performs reliably in predicting customer churn.
 
 ### Preprocessing
 
@@ -37,7 +37,7 @@ To train the model, open the `model_training.ipynb` notebook and execute the cel
 
 ## Flask API
 
-Once the model is trained, a **Flask API** is used to serve the model and allow users to make predictions by sending HTTP requests.
+Once the model is trained, a Flask API is used to serve the model and allow users to make predictions by sending HTTP requests.
 
 ### Dependencies
 The project requires the following libraries:
